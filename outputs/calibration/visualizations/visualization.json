@@ -1,0 +1,39 @@
+{
+  "selection": "fixed first, middle, last test frames, independent of errors",
+  "indices": [
+    0,
+    51,
+    102
+  ],
+  "frames": [
+    {
+      "frame_id": "0000",
+      "valid_pixels": 1326399,
+      "calibrated_valid_pixels_above_100_mm_display": 0
+    },
+    {
+      "frame_id": "0051",
+      "valid_pixels": 1327870,
+      "calibrated_valid_pixels_above_100_mm_display": 0
+    },
+    {
+      "frame_id": "0102",
+      "valid_pixels": 1332626,
+      "calibrated_valid_pixels_above_100_mm_display": 0
+    }
+  ],
+  "gt_and_calibrated_range_mm": [
+    0,
+    100.0
+  ],
+  "original_range_mm": [
+    0,
+    1300.0
+  ],
+  "calibrated_error_range_mm": [
+    0,
+    100.0
+  ],
+  "arrays_or_metrics_clipped": false,
+  "inference_rerun": false
+}

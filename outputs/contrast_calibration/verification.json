@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "per_frame_rows_checked": 595,
+  "checks": [
+    "one frozen parameter file used across both splits",
+    "prior result metadata unchanged",
+    "recorded streaming OLS solution and independent direct residual SSE",
+    "new per-frame metric pooling",
+    "direct formulas on first/middle/last frames of both splits"
+  ],
+  "model_inference_performed": false,
+  "previous_full_prediction_audits_repeated": false
+}

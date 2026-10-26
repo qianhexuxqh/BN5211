@@ -1,0 +1,21 @@
+{
+  "analysis_type": "descriptive analysis of one continuous test video; not independent clinical cases",
+  "sequence": "trans_t2_b",
+  "frames": 103,
+  "protocol_id": "c3vd-interior-v1",
+  "depth_bin_edges_mm": [
+    0.0,
+    10.0,
+    20.0,
+    40.0,
+    60.0,
+    100.0
+  ],
+  "bin_convention": "left-closed, right-open; raw 0 and 65535 excluded by existing mask",
+  "aggregation": "pooled valid pixels, never simple frame-metric means",
+  "case_ranking": "ascending per-frame AbsRel, then RMSE, then integer frame ID; first/last per method",
+  "error_tail_definition": "absolute depth error > 50 mm and > 100 mm; strict thresholds fixed before analysis",
+  "delta_transition_definition": "pixelwise max(pred/GT, GT/pred) < 1.25, strict; global-only pass is a loss, log-only pass is a gain",
+  "no_fitting_or_inference": true,
+  "formal_results_modified": false
+}

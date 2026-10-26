@@ -1,0 +1,22 @@
+.venv/
+.venv-gpu/
+.cache/
+__pycache__/
+*.py[cod]
+trans_t1_a/
+trans_t2_b/
+# Large data are backed up separately as GitHub Release assets.
+outputs/**/*.npy
+outputs/**/*.npz
+outputs/*.npy
+outputs/*.npz
+.github-backup/
+
+# Local credentials and editor state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/

@@ -1,0 +1,31 @@
+{
+  "purpose": "Report assets from existing saved experimental outputs only",
+  "model_inference": false,
+  "parameter_fitting": false,
+  "metric_reevaluation": false,
+  "source_sha256": {
+    "outputs/results/summary.json": "d27bfbca8758471d3fa3ce013a7daca6a6e38a176671b2b2524bc132dda34d5a",
+    "outputs/results/protocol.json": "29b801728a2d0e614f306e52c02aad43b5dc84a50e5256cfd1bd2f8584f891a6",
+    "outputs/results/baseline_fit.json": "d566855c3eacc44ff29b0a0c37c2334df4c97c27e52387c01772fce3a604b810",
+    "outputs/calibration/scale_fit.json": "b11f2c8104bf965415abffa30dbde350141c3ef968d3877ef68ffd18f015c6d2",
+    "outputs/calibration/development_summary.json": "c1b21050f557dfcacce0c02645e46ec6dd1eaa348c47c89e84f3faf93d2c4849",
+    "outputs/contrast_calibration/log_affine_fit.json": "3bb41d8dfc851bf734594cc9d1a8ee4f36fd1c0fca89993c9f0f15cdcf98149b",
+    "outputs/contrast_calibration/development_summary.json": "665d727462a9d36fc449a6b286ed9e0c8821994a0b9995d0615e11b560afb1a1",
+    "outputs/contrast_calibration/test_summary.json": "7506c52a9f63c01ab6f5cbde2320ba3d6f6a024e97497310e29566d838fe5625",
+    "outputs/error_analysis/depth_bin_metrics.csv": "f98c1db91c424879b6be322aa513b36cc0c9d180ba8f302f32367fb8c7e71b62",
+    "outputs/error_analysis/frame_distributions.csv": "4f081489905b14004923b3d0102c1584539bbfded028b1b00f4dcc6ab7d5631d",
+    "outputs/error_analysis/report_digest.json": "0504e2615af20bed8dc2fce79c24c4f3d35fec538073143b07c350bd0a63b98b",
+    "outputs/error_analysis/experimental_analysis_draft_en.md": "e8fde40040cdcd84dd7a3e3e5766d6648246448a7ce43617963fbad8b68fe023",
+    "outputs/final_visualizations/visualization.json": "4ced9d343eb2d49c554bcd81be291dfb2a6fed1cc51ee34575bbb401712cf696",
+    "outputs/final_visualizations/0102_final_comparison.png": "04b647d1fafa43f4b0409020392f06512dccfc5b32692b1be6779be4d28b4284",
+    "outputs/error_analysis/figures/Figure_D_frame_metric_distributions.png": "965f2ab8d458ad44790134020280b92fde0615e72074d3837b58edbfa8283d36"
+  },
+  "figures": {
+    "1": "workflow schematic",
+    "2": "byte-identical reuse of corrected 0102 visualization",
+    "3": "saved formal test scores",
+    "4": "saved pixel-pooled depth-bin scores",
+    "5": "saved development quantiles; not a histogram or confidence interval",
+    "S1": "byte-identical reuse of existing frame-analysis figure"
+  }
+}

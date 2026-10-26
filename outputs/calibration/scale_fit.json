@@ -1,0 +1,23 @@
+{
+  "status": "frozen",
+  "frozen_at_singapore": "2026-10-24T11:06:27.331701+08:00",
+  "fitted_sequence": "trans_t1_a",
+  "development_frames": 61,
+  "valid_pixels": 80952223,
+  "formula": "median(GT_valid_development) / median(Prediction_valid_development)",
+  "median_population": "all valid pixels pooled across all 61 development frames, not frame medians",
+  "gt_median_mm": 17.25947966735332,
+  "prediction_median_mm": 451.6485900878906,
+  "scale_factor": 0.03821439952684151,
+  "prediction_to_gt_median_ratio": 26.168146363195042,
+  "protocol_id": "c3vd-interior-v1",
+  "protocol_sha256": "29b801728a2d0e614f306e52c02aad43b5dc84a50e5256cfd1bd2f8584f891a6",
+  "development_prediction_manifest_sha256": "1e46047c8bd8ac0039803123f70f6d6c81dee782a60ff78ebe8f058e645bd925",
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "model_revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "test_gt_used_for_fitting": false,
+  "test_predictions_used_for_fitting": false,
+  "frozen_before_calibrated_test_evaluation": true,
+  "application": "same unique scale for every pixel of every image, float64 multiply then float32 storage; no clipping",
+  "other_calibration_formulas_tried": 0
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "bin sufficient statistics reconstruct all four existing global scores",
+    "delta transition categories partition each bin and reconstruct the exact net delta change",
+    "squared-error decomposition for residual SD"
+  ],
+  "no_inference_fitting_or_formal_score_changes": true
+}

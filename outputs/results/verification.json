@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "predictions_checked": 103,
+  "per_frame_rows": 206,
+  "checks": [
+    "protocol and baseline fingerprints",
+    "identical image sets and pixel counts",
+    "all saved prediction shapes/dtypes/finite-positive values",
+    "pooled scores reconstructed from weighted per-frame metrics",
+    "direct formulas on first/middle/last stored predictions for both methods"
+  ],
+  "inference_rerun": false
+}

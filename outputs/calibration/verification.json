@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "development_predictions": 61,
+  "cached_test_predictions_unchanged": 103,
+  "inference_rerun": false,
+  "checks": [
+    "frozen scale fingerprints",
+    "original result and raw prediction fingerprints unchanged",
+    "independent pooled median recomputation from development predictions",
+    "all per-frame to pooled metric reconstructions",
+    "direct formulas on first/middle/last frames of each split",
+    "independent numpy Pearson checks on fixed development samples"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "status": "complete",
+  "completed_at_singapore": "2026-10-24T11:52:34.320801+08:00",
+  "protocol_id": "c3vd-interior-v1",
+  "sequence": "trans_t2_b",
+  "frames": 103,
+  "valid_pixels": 136655314,
+  "depth_bin_pixel_counts": {
+    "0–10": 25846975,
+    "10–20": 52971492,
+    "20–40": 38275852,
+    "40–60": 13867104,
+    "60–100": 5693891
+  },
+  "delta_transition_totals": {
+    "both_pass": 12955993,
+    "global_only_pass": 29304468,
+    "log_only_pass": 26628349,
+    "both_fail": 67766504
+  },
+  "net_delta_pass_change": -2676119,
+  "delta_change_pp": -1.9582985261736692,
+  "frame_pairwise_log_affine_vs_global_scale": {
+    "abs_rel": {
+      "log_affine_better_frames": 83,
+      "log_affine_worse_frames": 20,
+      "equal_frames": 0
+    },
+    "rmse_mm": {
+      "log_affine_better_frames": 96,
+      "log_affine_worse_frames": 7,
+      "equal_frames": 0
+    },
+    "delta_1_25": {
+      "log_affine_better_frames": 53,
+      "log_affine_worse_frames": 50,
+      "equal_frames": 0
+    }
+  },
+  "representative_cases": [
+    {
+      "selection": "best_by_absrel",
+      "method": "constant_median",
+      "frame_id": "0010",
+      "valid_pixels": 1323971,
+      "abs_rel": 0.5059681375428224,
+      "rmse_mm": 16.8352826037329,
+      "delta_1_25": 0.293584980335672
+    },
+    {
+      "selection": "worst_by_absrel",
+      "method": "constant_median",
+      "frame_id": "0062",
+      "valid_pixels": 1322389,
+      "abs_rel": 0.6819045104314063,
+      "rmse_mm": 17.5466027202079,
+      "delta_1_25": 0.19268687201723547
+    },
+    {
+      "selection": "best_by_absrel",
+      "method": "original_depth_anything_v2",
+      "frame_id": "0087",
+      "valid_pixels": 1331860,
+      "abs_rel": 25.053497189277017,
+      "rmse_mm": 377.796924160057,
+      "delta_1_25": 0.0
+    },
+    {
+      "selection": "worst_by_absrel",
+      "method": "original_depth_anything_v2",
+      "frame_id": "0036",
+      "valid_pixels": 1324687,
+      "abs_rel": 29.202004314089745,
+      "rmse_mm": 463.0321729966277,
+      "delta_1_25": 0.0
+    },
+    {
+      "selection": "best_by_absrel",
+      "method": "global_scale",
+      "frame_id": "0090",
+      "valid_pixels": 1332186,
+      "abs_rel": 0.43486462800340836,
+      "rmse_mm": 18.360553835076885,
+      "delta_1_25": 0.3132618117890445
+    },
+    {
+      "selection": "worst_by_absrel",
+      "method": "global_scale",
+      "frame_id": "0057",
+      "valid_pixels": 1323482,
+      "abs_rel": 0.5419809723564024,
+      "rmse_mm": 17.233907619232,
+      "delta_1_25": 0.23952120240396166
+    },
+    {
+      "selection": "best_by_absrel",
+      "method": "log_affine",
+      "frame_id": "0075",
+      "valid_pixels": 1328987,
+      "abs_rel": 0.2763939732567167,
+      "rmse_mm": 13.84902162009804,
+      "delta_1_25": 0.4759504795757972
+    },
+    {
+      "selection": "worst_by_absrel",
+      "method": "log_affine",
+      "frame_id": "0036",
+      "valid_pixels": 1324687,
+      "abs_rel": 0.6369401278264494,
+      "rmse_mm": 11.673923102731306,
+      "delta_1_25": 0.39602411739527904
+    }
+  ],
+  "source_fingerprints": {
+    "outputs\\results\\protocol.json": "29b801728a2d0e614f306e52c02aad43b5dc84a50e5256cfd1bd2f8584f891a6",
+    "outputs\\results\\baseline_fit.json": "d566855c3eacc44ff29b0a0c37c2334df4c97c27e52387c01772fce3a604b810",
+    "outputs\\calibration\\scale_fit.json": "b11f2c8104bf965415abffa30dbde350141c3ef968d3877ef68ffd18f015c6d2",
+    "outputs\\contrast_calibration\\log_affine_fit.json": "3bb41d8dfc851bf734594cc9d1a8ee4f36fd1c0fca89993c9f0f15cdcf98149b",
+    "outputs\\contrast_calibration\\test_summary.json": "7506c52a9f63c01ab6f5cbde2320ba3d6f6a024e97497310e29566d838fe5625",
+    "outputs\\contrast_calibration\\test_per_frame.csv": "ba65fc6183e5e3492d577733d41408fd4d93d2018467fd63d1b6b7578a87d698"
+  },
+  "parameters_refitted": false,
+  "model_inference_performed": false,
+  "formal_results_modified": false,
+  "bin_statistics_reconstruct_existing_global_sufficient_statistics": true,
+  "temporal_caution": "103 sequential frames from one video, not 103 independent clinical cases; descriptive statistics only"
+}

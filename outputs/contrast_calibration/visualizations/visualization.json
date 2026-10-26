@@ -1,0 +1,45 @@
+{
+  "fixed_frames": [
+    "0000",
+    "0051",
+    "0102"
+  ],
+  "selection_independent_of_errors": true,
+  "shared_depth_range_mm": [
+    0,
+    100
+  ],
+  "shared_error_range_mm": [
+    0,
+    100
+  ],
+  "numerical_prediction_clipping": false,
+  "per_image_normalization": false,
+  "display_saturation_counts": [
+    {
+      "frame_id": "0000",
+      "valid_pixels": 1326399,
+      "global_scale_depth_above_100_mm": 0,
+      "log_affine_depth_above_100_mm": 30,
+      "global_scale_error_above_100_mm": 0,
+      "log_affine_error_above_100_mm": 28
+    },
+    {
+      "frame_id": "0051",
+      "valid_pixels": 1327870,
+      "global_scale_depth_above_100_mm": 0,
+      "log_affine_depth_above_100_mm": 2,
+      "global_scale_error_above_100_mm": 0,
+      "log_affine_error_above_100_mm": 1
+    },
+    {
+      "frame_id": "0102",
+      "valid_pixels": 1332626,
+      "global_scale_depth_above_100_mm": 0,
+      "log_affine_depth_above_100_mm": 60,
+      "global_scale_error_above_100_mm": 0,
+      "log_affine_error_above_100_mm": 55
+    }
+  ],
+  "inference_performed": false
+}

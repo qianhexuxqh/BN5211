@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "sequence": "trans_t1_a",
+  "frames": 61,
+  "valid_pixels": 80952223,
+  "frame_ids": [
+    "0000",
+    "0001",
+    "0002",
+    "0003",
+    "0004",
+    "0005",
+    "0006",
+    "0007",
+    "0008",
+    "0009",
+    "0010",
+    "0011",
+    "0012",
+    "0013",
+    "0014",
+    "0015",
+    "0016",
+    "0017",
+    "0018",
+    "0019",
+    "0020",
+    "0021",
+    "0022",
+    "0023",
+    "0024",
+    "0025",
+    "0026",
+    "0027",
+    "0028",
+    "0029",
+    "0030",
+    "0031",
+    "0032",
+    "0033",
+    "0034",
+    "0035",
+    "0036",
+    "0037",
+    "0038",
+    "0039",
+    "0040",
+    "0041",
+    "0042",
+    "0043",
+    "0044",
+    "0045",
+    "0046",
+    "0047",
+    "0048",
+    "0049",
+    "0050",
+    "0051",
+    "0052",
+    "0053",
+    "0054",
+    "0055",
+    "0056",
+    "0057",
+    "0058",
+    "0059",
+    "0060"
+  ],
+  "results": {
+    "original": {
+      "valid_pixels": 80952223,
+      "abs_rel": 28.672276142125497,
+      "rmse_mm": 430.62626127157375,
+      "delta_1_25": 0.0,
+      "abs_rel_sum": 2321084492.174923,
+      "squared_error_sum_mm2": 15011697410636.232,
+      "delta_1_25_count": 0
+    },
+    "global_scale": {
+      "valid_pixels": 80952223,
+      "abs_rel": 0.5086880515432182,
+      "rmse_mm": 16.984629830637793,
+      "delta_1_25": 0.29631623581232597,
+      "abs_rel_sum": 41179428.58596209,
+      "squared_error_sum_mm2": 23352907092.479927,
+      "delta_1_25_count": 23987458
+    },
+    "log_affine": {
+      "valid_pixels": 80952223,
+      "abs_rel": 0.36418687476419737,
+      "rmse_mm": 11.364458916073472,
+      "delta_1_25": 0.4391486568565264,
+      "abs_rel_sum": 29481737.09958438,
+      "squared_error_sum_mm2": 10455054599.051622,
+      "delta_1_25_count": 35550060
+    }
+  },
+  "depth_quantiles": {
+    "ground_truth_mm": {
+      "p05": 6.211947814145113,
+      "median": 17.25947966735332,
+      "p95": 60.33417257953765
+    },
+    "global_scale_mm": {
+      "p05": 14.07882022857666,
+      "median": 17.259479522705078,
+      "p95": 20.46521759033203
+    },
+    "log_affine_mm": {
+      "p05": 7.00191591534443,
+      "median": 18.581525902225163,
+      "p95": 42.033864087545865
+    },
+    "definition": "exact all-valid-pixel linear empirical quantiles; temporary mmap partition; nonlinear transform before interpolation"
+  },
+  "log_affine_extrema": {
+    "min_mm": 2.0697067178702495,
+    "max_mm": 2055.5137488638356,
+    "above_100_mm_valid_pixels": 3621
+  },
+  "direct_log_sse": 14278570.66515107,
+  "protocol_id": "c3vd-interior-v1",
+  "log_affine_fit_sha256": "3bb41d8dfc851bf734594cc9d1a8ee4f36fd1c0fca89993c9f0f15cdcf98149b",
+  "model_inference_performed": false,
+  "environment": {
+    "python_executable": "E:\\BN5211小组作业\\.venv-gpu\\Scripts\\python.exe",
+    "python": "3.13.5",
+    "numpy": "2.4.4",
+    "fitting_and_application_dtype": "float64",
+    "compute_device": "CPU"
+  }
+}

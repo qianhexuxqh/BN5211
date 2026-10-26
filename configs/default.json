@@ -1,0 +1,9 @@
+{
+  "data_root": ".",
+  "development_sequence": "trans_t1_a",
+  "test_sequence": "trans_t2_b",
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "model_revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "cache_dir": ".cache/huggingface",
+  "device": "auto"
+}

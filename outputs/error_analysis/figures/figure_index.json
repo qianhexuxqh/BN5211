@@ -1,0 +1,31 @@
+{
+  "figures": [
+    {
+      "figure": "A",
+      "file_stem": "Figure_A_abs_rel_by_depth",
+      "y_scale": "logarithmic"
+    },
+    {
+      "figure": "B",
+      "file_stem": "Figure_B_rmse_mm_by_depth",
+      "y_scale": "logarithmic"
+    },
+    {
+      "figure": "C",
+      "file_stem": "Figure_C_delta_1_25_by_depth",
+      "y_scale": "linear"
+    },
+    {
+      "figure": "D",
+      "file_stem": "Figure_D_frame_metric_distributions",
+      "absrel_rmse_axis": "logarithmic",
+      "delta_axis": "linear"
+    }
+  ],
+  "formats": [
+    "png_300_dpi",
+    "pdf_vector"
+  ],
+  "data_source": "saved error-analysis tables only",
+  "predictions_or_results_modified": false
+}

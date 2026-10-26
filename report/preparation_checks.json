@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": {
+    "source_artifacts_unchanged": true,
+    "all_manuscript_local_links_resolve": true,
+    "five_main_figures_and_captions": true,
+    "four_numbered_tables": true,
+    "balanced_display_math": true,
+    "test_scores_match_saved_results": true,
+    "development_scores_match_saved_results": true,
+    "development_quantiles_match_saved_results": true,
+    "unchanged_corrected_qualitative_copy": true,
+    "unchanged_frame_figure_copy": true,
+    "no_final_pdf_or_presentation": true,
+    "exported_test_table_matches": true
+  },
+  "word_count_method": "whitespace-delimited; includes Markdown tables and captions",
+  "words_including_references": 3540,
+  "words_excluding_references": 3325,
+  "main_figures": 5,
+  "supplementary_figures": 1,
+  "references": 7,
+  "model_inference": false,
+  "parameter_fitting": false,
+  "metric_reevaluation": false,
+  "visual_review": "Five main PNGs and supplementary PNG inspected; Figure 5 label overlap corrected.",
+  "actual_resolved_issues": [
+    "Temporary shell quoting and default GBK text decoding; used a here-string and explicit UTF-8.",
+    "Overlapping quantile labels; changed endpoint alignment.",
+    "Publisher page 403; verified references through author preprint and official dataset page.",
+    "Existing context file BOM prevented one patch match; included the BOM explicitly."
+  ],
+  "unresolved_engineering_blockers": [],
+  "pending_user_information": [
+    "Team identifiers and submission date",
+    "Official course document, length/template and submission requirements"
+  ]
+}

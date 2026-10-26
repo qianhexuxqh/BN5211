@@ -1,0 +1,57 @@
+{
+  "purpose": "limited data-loading check, not evaluation",
+  "sequence": "trans_t1_a",
+  "directory": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a",
+  "paired_filenames": 61,
+  "conversion": "depth_mm = uint16_code * 100 / 65535",
+  "samples": [
+    {
+      "frame_id": "0000",
+      "rgb_path": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a\\0000_color.png",
+      "depth_path": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a\\0000_depth.tiff",
+      "rgb_shape": [
+        1080,
+        1350,
+        3
+      ],
+      "depth_shape": [
+        1080,
+        1350
+      ],
+      "raw_dtype": "uint16",
+      "depth_dtype": "float32",
+      "raw_min": 0,
+      "raw_max": 65535,
+      "depth_min_mm": 0.0,
+      "depth_max_mm": 100.0,
+      "zero_codes": 102049,
+      "max_codes": 28188,
+      "storage_valid_pixels": 1458000,
+      "mask_note": "Endpoints retained; final evaluation ROI not yet specified"
+    },
+    {
+      "frame_id": "0001",
+      "rgb_path": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a\\0001_color.png",
+      "depth_path": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a\\0001_depth.tiff",
+      "rgb_shape": [
+        1080,
+        1350,
+        3
+      ],
+      "depth_shape": [
+        1080,
+        1350
+      ],
+      "raw_dtype": "uint16",
+      "depth_dtype": "float32",
+      "raw_min": 0,
+      "raw_max": 65535,
+      "depth_min_mm": 0.0,
+      "depth_max_mm": 100.0,
+      "zero_codes": 102049,
+      "max_codes": 28974,
+      "storage_valid_pixels": 1458000,
+      "mask_note": "Endpoints retained; final evaluation ROI not yet specified"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "selection": "fixed first, middle and last chronological test frames; independent of scores",
+  "indices": [
+    0,
+    51,
+    102
+  ],
+  "frame_ids": [
+    "0000",
+    "0051",
+    "0102"
+  ],
+  "shared_depth_display_range_mm": [
+    0,
+    1300.0
+  ],
+  "shared_error_display_range_mm": [
+    0,
+    1300.0
+  ],
+  "prediction_modified": false,
+  "inference_rerun": false
+}

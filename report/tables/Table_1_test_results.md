@@ -1,0 +1,6 @@
+| Method | Target-domain supervision | AbsRel (lower) | RMSE (mm; lower) | Delta < 1.25 (higher) |
+| --- | --- | --- | --- | --- |
+| Constant median | Development GT median | 0.54988718 | 17.71215573 | 0.27518633 |
+| Original DAV2 | None: zero-shot pretrained inference | 27.06870370 | 418.08559985 | 0.00000000 |
+| Global scale | Development GT + predictions: one global scale | 0.46851230 | 16.69069083 | 0.30924857 |
+| Log-affine | Development GT + predictions: global log-affine fit | 0.41913838 | 13.12062839 | 0.28966559 |

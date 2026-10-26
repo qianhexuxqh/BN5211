@@ -1,0 +1,113 @@
+{
+  "frames": [
+    {
+      "frame_id": "0000",
+      "rgb_file": "0000_color.png",
+      "gt_file": "0000_depth.tiff",
+      "raw_gt_dtype": "uint16",
+      "depth_shape": [
+        1080,
+        1350
+      ],
+      "prediction_file": "outputs\\results\\predictions_mm\\0000_prediction_mm.npy",
+      "source_array_read_only": true,
+      "valid_pixels": 1326399,
+      "above_display_limit_counts": {
+        "gt": 0,
+        "original": 0,
+        "global_scale": 0,
+        "log_affine": 30,
+        "original_error": 1326399,
+        "global_scale_error": 0,
+        "log_affine_error": 28
+      }
+    },
+    {
+      "frame_id": "0051",
+      "rgb_file": "0051_color.png",
+      "gt_file": "0051_depth.tiff",
+      "raw_gt_dtype": "uint16",
+      "depth_shape": [
+        1080,
+        1350
+      ],
+      "prediction_file": "outputs\\results\\predictions_mm\\0051_prediction_mm.npy",
+      "source_array_read_only": true,
+      "valid_pixels": 1327870,
+      "above_display_limit_counts": {
+        "gt": 0,
+        "original": 0,
+        "global_scale": 0,
+        "log_affine": 2,
+        "original_error": 1327870,
+        "global_scale_error": 0,
+        "log_affine_error": 1
+      }
+    },
+    {
+      "frame_id": "0102",
+      "rgb_file": "0102_color.png",
+      "gt_file": "0102_depth.tiff",
+      "raw_gt_dtype": "uint16",
+      "depth_shape": [
+        1080,
+        1350
+      ],
+      "prediction_file": "outputs\\results\\predictions_mm\\0102_prediction_mm.npy",
+      "source_array_read_only": true,
+      "valid_pixels": 1332626,
+      "above_display_limit_counts": {
+        "gt": 0,
+        "original": 0,
+        "global_scale": 0,
+        "log_affine": 60,
+        "original_error": 1332626,
+        "global_scale_error": 0,
+        "log_affine_error": 55
+      }
+    }
+  ],
+  "shared_gt_calibrated_range_mm": [
+    0,
+    100
+  ],
+  "original_range_mm": [
+    0,
+    1300
+  ],
+  "shared_error_range_mm": [
+    0,
+    100
+  ],
+  "depth_colormap": "viridis",
+  "error_colormap": "magma",
+  "excluded_color": "#aaaaaa",
+  "mask": "0 < depth_raw < 65535",
+  "per_image_normalization": false,
+  "raw_prediction_arrays_modified": false,
+  "calibration_refitted": false,
+  "model_inference_performed": false,
+  "formal_results_modified": false,
+  "previous_correct_calibration_visualizations_preserved": true,
+  "0102_central_gray_check": {
+    "frame_id": "0102",
+    "seed_xy_zero_based": [
+      750,
+      400
+    ],
+    "seed_raw_uint16": 65535,
+    "component_connectivity": "four-connected excluded-mask component",
+    "component_pixels": 23325,
+    "bbox_xy_inclusive": [
+      591,
+      352,
+      759,
+      556
+    ],
+    "raw_values_and_counts": {
+      "65535": 23325
+    },
+    "seed_decoded_mm": 100.0,
+    "display_reason": "fixed evaluation mask excludes raw 0 and 65535; the display maps excluded pixels to gray"
+  }
+}

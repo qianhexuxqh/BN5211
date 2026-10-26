@@ -1,0 +1,32 @@
+{
+  "purpose": "single-image smoke test, not a formal experiment",
+  "sequence": "trans_t1_a",
+  "frame_id": "0000",
+  "rgb_path": "E:\\BN5211小组作业\\trans_t1_a\\trans_t1_a\\0000_color.png",
+  "model_id": "depth-anything/Depth-Anything-V2-Metric-Indoor-Small-hf",
+  "model_revision": "8078d68a9c75a972131914f6afd0c1723be0da7f",
+  "device": "cpu",
+  "python": "3.13.5",
+  "python_executable": "E:\\BN5211小组作业\\.venv\\Scripts\\python.exe",
+  "torch": "2.11.0+cpu",
+  "transformers": "4.57.6",
+  "cuda_available": false,
+  "model_loaded": true,
+  "inference_succeeded": true,
+  "shape": [
+    1080,
+    1350
+  ],
+  "dtype": "float32",
+  "all_finite": true,
+  "minimum_mm": 352.93438720703125,
+  "maximum_mm": 1057.4205322265625,
+  "unit_conversion": "raw model meters * 1000 = millimeters; no scale calibration",
+  "loading_seconds": 4.368349300000773,
+  "inference_seconds": 0.6395518999997876,
+  "visualization_only": {
+    "preview_min_mm": 352.93438720703125,
+    "preview_max_mm": 1057.4205322265625
+  },
+  "metrics_computed": false
+}
