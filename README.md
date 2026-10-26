@@ -2,10 +2,11 @@
 
 BN5211 Medical Robotics Intelligence 课程项目：**Depth Estimation from Monocular or Stereo Endoscopic Images**。
 
-已完成基础实验、Global Scale Calibration、Log-Affine Calibration、最终可视化修正、误差分析及完整英文报告初稿。当前进入团队审阅阶段，尚未生成最终报告 PDF 或 Presentation。
+已完成基础实验、Global Scale Calibration、Log-Affine Calibration、误差分析和英文报告初稿。下一位同学从 [交接说明](HANDOFF.md) 继续。`handoff/` 里有草稿 PDF 和幻灯片，标题页仍缺组号与姓名，还不是 Canvas 终稿。
 
 ## 从这里开始
 
+- [交给下一位同学](HANDOFF.md)：冻结成绩、还要写的报告和 12 分钟演示。
 - [GitHub 完整备份与恢复](GITHUB_BACKUP.md)：代码、报告与结果保存在仓库；原始数据和预测数组保存在同仓库的 Release 附件。
 - [完整英文报告初稿](report/draft/report_draft.md)：六章正文及摘要，含表格/图注约 3,325 词，含参考文献约 3,540 词。
 - [报告目录说明](report/README.md)：图表与数据来源、重建方法和科学表述约定。
